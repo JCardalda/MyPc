@@ -1,0 +1,13 @@
+body {
+  background: url(../img/contacto/5445590.jpg) no-repeat fixed;
+  background-size: cover;
+}
+main {
+  height: 100vh;
+}
+main .btn {
+  background-color: #45cc72;
+}
+.formulario {
+  background-color: hsla(0, 0%, 100%, 0.7);
+}

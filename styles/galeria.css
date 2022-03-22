@@ -1,0 +1,40 @@
+section {
+  background-color: #2c164c;
+  color: rgb(251, 251, 251);
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+
+/* Creando 4 columnas*/
+.columna {
+  flex: 25%;
+  padding: 10px 10px;
+}
+
+.columna img {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 25px;
+}
+
+#galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive layout- 2 columnas */
+@media (max-width: 800px) {
+  .columna {
+    flex: 50%;
+  }
+}
+
+/* Responsive layout- una columna */
+@media (max-width: 600px) {
+  .columna {
+    flex: 100%;
+  }
+}
